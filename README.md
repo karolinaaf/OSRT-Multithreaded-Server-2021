@@ -15,7 +15,6 @@ potrebné inštrukcie na hodnotenie posiela klientom.
 otázky. Na tie je nutné odpovedať zadaním čísla v rozsahu 1-5, viď. legenda. Po
 zodpovedaní všetkých otázok klient vypíše správu, že všetky otázky boli zodpovedané spolu s výsledkom testu.
 
-<center>
 \* | Legenda
 --- | :---:
 1 | Very Inaccurate
@@ -23,7 +22,6 @@ zodpovedaní všetkých otázok klient vypíše správu, že všetky otázky bol
 3 | Neither Accurate Nor Inaccurate
 4 | Moderately Accurate
 5 | Very Accurate
-</center>
 
 **2** Kompilácia a spustenie
 ---
