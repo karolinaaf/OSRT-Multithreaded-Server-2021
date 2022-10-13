@@ -27,10 +27,16 @@ zodpovedaní všetkých otázok klient vypíše správu, že všetky otázky bol
 ---
 &emsp;Celý projekt (server a klient) je možné skompilovať naraz len príkazom `make`
 Server požaduje dva argumenty, jedným je port a druhým počet otázok (min.
-1, max. 50), ktoré má klientovi odoslať: `./server <port> <počet_otázok>`.
-Klient požaduje len jeden argument a tým je port, ktorý musí byť rovnaký ako
-port serveru: `./client <port>`
-V projekte sa tiež nachádza ďalší program, ktorý slúži len ako prototyp.
+1, max. 50), ktoré má klientovi odoslať:  
+```
+./server <port> <počet_otázok>
+```
+&emsp;Klient požaduje len jeden argument a tým je port, ktorý musí byť rovnaký ako
+port serveru:
+```
+./client <port>
+```
+&emsp;V projekte sa tiež nachádza ďalší program, ktorý slúži len ako prototyp.
 skompiluje sa cez `make test` a spustí cez `./test`
 
 **3** Vypnutie programu
